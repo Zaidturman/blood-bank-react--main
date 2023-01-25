@@ -1,0 +1,28 @@
+.homepage{
+    display:grid;
+    justify-items: center;
+    align-items: center;
+}
+.home{
+    display: grid;
+   grid-template-columns: repeat(3,500px);
+   grid-gap: 100px;
+   margin-top:10%
+}
+.home div{
+    padding: 10%;
+    
+    background-color: rgb(255, 243, 243);
+}
+.home .first{
+    display: flex;
+    justify-content: start;
+}
+.home .second{
+    display: flex;
+    justify-content: center;
+}
+.home .thired{
+    display: flex;
+    justify-content: end;
+}

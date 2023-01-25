@@ -1,0 +1,15 @@
+.navcontenar{
+    display:grid;
+    align-items: center;
+    background-color: rgb(255, 228, 228);
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+}
+ul li {
+   margin: 5px;
+}
