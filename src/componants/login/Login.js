@@ -1,43 +1,21 @@
 import React from 'react';
+import './Login.css'
 
 function Login() {
 
   return (
+     <div className='login-container'>
+      <h1>Login</h1>
+      <form >
+        <label>User Name</label>
+        <input type="text" />
+        <label>Password</label>
+        <input type="password" />
+        <button>Login</button>
+      </form>
+     </div>
 
-    <div>
-         <form >
-      <div className="login-card shadow">
-        
-        <div className="mb-2">
-          <label htmlFor="username-field">username</label>
-          <input
-          
-            type="text"
-            className="form-control"
-            name=""
-            id="username-field"
-            placeholder=""
-          />
-        </div>
 
-        <div className="mb-2">
-          <label htmlFor="password-field">password</label>
-          <input
-           
-            type="password"
-            className="form-control"
-            name=""
-            id="password-field"
-            placeholder=""
-          />
-        </div>
-
-      
-        <button type="submit" className="btn btn-login" >login  </button>
-  
-    </div>
-     </form>
-    </div>
   );
 }
 

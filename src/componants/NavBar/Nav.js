@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Nav.css';
 
 function Nav() {
@@ -5,16 +6,14 @@ function Nav() {
     <div className='navcontenar'>
     <div className='nav'>
       <ul>
-       <a><li>map application</li></a> 
-       <a> <li>application</li></a> 
-       <a><li>Previous donations </li></a>  
-       <a><li>Call for donations</li></a>  
-       <a><li>Volunteer with us</li></a>  
+        <a href="/">map application</a>
+        <a href="/">application</a> 
+        <a href="/">Previous donations </a>
+        <a href="/">Call for donations</a>  
+        <a href="/">Volunteer with us</a>   
       </ul>
     </div>
-
     </div>
   );
 }
-
 export default Nav;
