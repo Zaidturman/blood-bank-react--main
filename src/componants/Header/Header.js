@@ -1,13 +1,16 @@
 import './Header.css';
 import Search from '../Search/Search';
-import Login from '../login/Login'
-//import signUp from './componants/signUp/signUp';
+//import Login from '../login/Login'
+import { useHistory } from 'react-router-dom'
 
-//, NavLink  Router  ,
 
 function Header() {
 
+  const history = useHistory();
 
+  function handleClick() {
+    history.push('./login/Login');
+  }
 
 
   return (
@@ -23,7 +26,7 @@ function Header() {
     <div className='login'>
       
     
-    <button>sign in</button>
+    <button onClick={handleClick}>sign in</button>
     <button>sign up</button>
     </div>
 
